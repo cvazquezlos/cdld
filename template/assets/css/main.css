@@ -8,9 +8,42 @@ body {
     margin-bottom: 60px;
 }
 
-ol, ul {
+/*------------ HEADER ------------*/
+
+.logo img {
+    max-width: 75px;
+}
+
+.social {
     list-style: none;
 }
+
+.social li {
+    width: 40px;
+    float: left;
+}
+
+.social li a i {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.github {
+    background-color: #343A40;
+}
+
+.google {
+    background-color: #d34836;
+}
+
+/*------------ FOOTER ------------*/
 
 .footer {
     position: absolute;
@@ -21,8 +54,4 @@ ol, ul {
     line-height: 60px;
     /* Vertically center the text there */
     background-color: #343A40;
-}
-
-.logo img {
-    max-width: 75px;
 }
