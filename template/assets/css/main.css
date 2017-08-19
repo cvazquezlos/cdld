@@ -14,12 +14,21 @@ body {
     max-width: 75px;
 }
 
+.social-nav {
+    margin: 0;
+    padding: 0;
+}
+
 .social {
     list-style: none;
+    padding-top: 30px;
+    padding-left: 60px;
+    margin: auto;
+    text-align: center;
 }
 
 .social li {
-    width: 40px;
+    width: 42px;
     float: left;
 }
 
@@ -27,7 +36,7 @@ body {
     color: #fff;
     display: block;
     text-align: center;
-    padding: 10px 0;
+    padding: 14px 0;
     font-size: 16px;
 }
 
